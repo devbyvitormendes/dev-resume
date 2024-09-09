@@ -1,0 +1,38 @@
+.hobbies-mf {
+  margin-top: 4rem;
+}
+
+.hobby-box {
+  background-color: #101010;
+  padding: 2.5rem 1.3rem;
+  border-radius: 1rem;
+  margin-bottom: 3rem;
+}
+
+.hobby-box:hover .ico-circle {
+  transition: all 500ms ease;
+  color: #f8f8ff;
+  background-color: #24b67e;
+  box-shadow: 0 0 0 10px #bbf5df;
+}
+
+.hobby-box .hobby-ico {
+  margin-bottom: 1rem;
+  color: #f8f8ff;
+}
+
+.hobby-box .ico-circle {
+  transition: all 500ms ease;
+  font-size: 4rem;
+}
+
+.hobby-box .s-title {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0.4rem 0;
+}
+
+.hobby-box .s-description {
+  color: #f8f8ff;
+}
